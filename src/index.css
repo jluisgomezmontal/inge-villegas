@@ -1,3 +1,10 @@
+:root{
+  --background: #F2F2F2;
+  --red: #A60303;
+  --black: #0D0D0D;
+  --gray: #262626;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +12,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.secretaria{
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--black);
+}
+.cedula{
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--gray);
+  margin-bottom: 15px;
+}
+.cedula em{
+  color: var(--black);
+  text-transform:inherit;
+}
+
+.profilePhoto{
+  display: block;
+  max-width: 80%;
+  margin: 35px auto;
+
+}
+
+.parrafo{
+  text-transform: uppercase;
+  max-width: 90%;
+  color: var(--gray);
+  margin: 0 auto;
+  font-size: 17px;
+  text-align: justify;
+}
+.parrafo em{
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--black);
+  text-transform:inherit;
+}
+
+a{
+  -webkit-appearance: none!important;
+  -webkit-border-radius: 0!important;
+}
+
